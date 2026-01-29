@@ -8,41 +8,88 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-    <header class="flex justify-between ">
+    <header class="flex justify-between sticky top-0 bg-white">
+        <article class="text-4xl">
+        <a href="http://127.0.0.1:5500/index2.html"><i class="fa-solid fa-arrow-left"></i></a>
+        </article>
         <article class="text-4xl">
         <i class="fa-solid fa-bars"></i>
         </article>
-        <article class="text-4xl">
-        <i class="fa-solid fa-plus"></i>
-        </article>
     </header>
     <section class="flex justify-between items-center mt-[20px]">
-        <img class="w-[100px] h-[100px] ml-[10px]" src="mj_profile.webp" alt="">
+        <div class="p-[30px] bg-slate-400 text-3xl rounded-[50%]">
+            <i class="fa-solid fa-circle-user"></i>
+        </div>
+
         <article>
-            <p>10</p>
-            <span>posts</span>
+            <p class="text-xl font-semibold">10</p>
+            <span class="text-xl">posts</span>
         </article>
         <article>
-            <p>2M</p>
-            <span>Followers</span>
+            <p class="text-xl font-semibold">2M</p>
+            <span class="text-xl">Followers</span>
         </article>
         <article class="mr-[5px]">
-            <p>1.000</p>
-            <span>Following</span>
+            <p class="text-xl font-semibold">1.000</p>
+            <span class="text-xl">Following</span>
         </article>
     </section>
     <section class="w-[100%] h-[40px] mt-[50px] flex justify-around items-baseline">
-        <article class="pl-[30px] pr-[30px] pt-[15px] pb-[15px] rounded-3xl bg-black">
+        <article class="pl-[30px] pr-[30px] pt-[15px] pb-[15px] rounded-3xl  bg-slate-600">
             <p class="text-2xl text-white font-semibold">edit profile</p>
         </article>
-        <article class="pl-[30px] pr-[26px] pt-[15px] pb-[15px] rounded-3xl  bg-black">
+        <article class="pl-[30px] pr-[26px] pt-[15px] pb-[15px] rounded-3xl   bg-slate-600">
             <p class="text-2xl text-white font-semibold">share profile</p>
         </article>
     </section>
-    <section>
-        <article class="mt-[90px] p-[40px] w-[100px] h-[100px] rounded-full m-auto text-white bg-black text-3xl flex justify-center items-center">
+    <section class="flex flex-col items-center">
+        <article class="mt-[70px] p-[40px] w-[100px] h-[100px] rounded-full m-auto text-white bg-black text-3xl flex justify-center items-center">
             <i class="fa-solid fa-plus"></i>
         </article>
+        <p class="text-xl font-bold text-blue-700">News</p>
+    </section>
+    <hr>
+    <section class="w-[100%]  mt-[20px] flex justify-between">
+        <div >
+        <article class="w-[150px] h-[200px] bg-black rounded-lg flex flex-col justify-between ml-[10px] mt-[5px]">
+            <div class="text-white flex justify-end mr-[5px]">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="text-white">
+                <i class="fa-regular fa-eye"></i>
+                <span>12K</span>
+            </div>
+        </article>
+        <article class="w-[150px] h-[200px] bg-black rounded-lg flex flex-col justify-between ml-[10px] mt-[10px]">
+            <div class="text-white flex justify-end mr-[5px]">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="text-white">
+                <i class="fa-regular fa-eye"></i>
+                <span>1M</span>
+            </div>
+        </article>
+        </div>
+        <div >
+        <article class="w-[150px] h-[200px] bg-black rounded-lg flex flex-col justify-between mr-[10px] mt-[5px]">
+            <div class="text-white flex justify-end mr-[5px]">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="text-white">
+                <i class="fa-regular fa-eye"></i>
+                <span>10K</span>
+            </div>
+        </article>
+        <article class="w-[150px] h-[200px] bg-black rounded-lg flex flex-col justify-between mr-[10px] mt-[10px]">
+            <div class="text-white flex justify-end mr-[5px]">
+                <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="text-white">
+                <i class="fa-regular fa-eye"></i>
+                <span>2M</span>
+            </div>
+        </article>
+        </div>
     </section>
 </body>
 </html>
