@@ -9,93 +9,103 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
-    <header class="flex justify-between p-2 text-3xl">
+    <header class="flex justify-between p-2 text-3xl sticky top-0 bg-white ">
             <i class="fa-solid fa-bars"></i>
             <i class="fa-solid fa-magnifying-glass"></i>
     </header>
-    <p class=" ml-[160px]">profile</p>
-    <h2 class=" ml-[70px] text-3xl font-bold">bloger of the week</h2>
-    <section class="flex justify-around">
+    <div class="lg:flex flex-col items-center justify-center">
+    <p class=" ml-[160px] lg:text-[50px] lg:m-auto">profile</p>
+    <h2 class=" ml-[70px] text-3xl font-bold lg:m-auto">bloger of the week</h2>
+    </div>
+    <section class="flex justify-around lg:mt-10 ">
     <article class="flex flex-col ">
-        <a href=""><img src="images/profile1.jpg" alt="" class="w-20 h-20 rounded-full object-cover" ></a>
-        <span class="mx-6">john</span>
+        <div class="w-20 h-20 border-4 border-indigo-500 rounded-full p-1 lg:w-40 lg:h-40 ">
+        <a href=""><img src="images/profile1.jpg" alt="" class="w-full h-full rounded-full object-cover" ></a>
+        </div>
+        <span class="mx-6 lg:ml-[50px] lg:text-[30px]">john</span>
     </article>
         <article>
-        <a href=""><img src="images/profile2.jpg" alt=""class="w-20 h-20  rounded-full object-cover" ></a>
-          <span class="mx-5">tomas</span>
+         <div class="w-20 h-20 border-4 border-indigo-500 rounded-full p-1 lg:w-40 lg:h-40 ">    
+        <a href=""><img src="images/profile2.jpg" alt=""class="w-full h-full rounded-full object-cover" ></a>
+        </div>
+        <span class="mx-5 lg:ml-[50px] lg:text-[30px]">tomas</span>
     </article> 
     <article>
-        <a href=""><img src="images/profile2.jpg" alt=""class="w-20 h-20  rounded-full object-cover" ></a>
-           <span class="mx-6">amin</span>
+        <div class="w-20 h-20 border-4 border-indigo-600 rounded-full p-1 lg:w-40 lg:h-40 ">
+        <a href=""><img src="images/profile2.jpg" alt=""class="w-full h-full  rounded-full object-cover" ></a>
+        </div>
+        <span class="mx-6 lg:ml-[50px] lg:text-[30px]">amin</span>
     </article>
     <article>
-        <a href=""><img src="images/profile2.jpg" alt=""class="w-20 h-20  rounded-full object-cover" ></a>
-        <span class="mx-6">abdo</span>
+        <div class="w-20 h-20 border-4 border-indigo-500 rounded-full p-1 lg:w-40 lg:h-40  ">
+        <a href=""><img src="images/profile2.jpg" alt=""class="w-full h-full  rounded-full object-cover" ></a>
+        </div>
+        <span class="mx-6 lg:ml-[50px] lg:text-[30px]">abdo</span>
     </article>
     </section>
     <section class="flex flex-col mt-10 ">
-        <h2 class="ml-[110px] text-3xl font-semibold">what do you</h2>
+        <h2 class="ml-[110px] text-3xl font-semibold lg:m-auto lg:text-[40px] lg:">what do you</h2>
         <article class="flex justify-between ml-5 mr-5 mt-7 overflow-scroll">
-            <a href="" class="rounded-full border px-5 py-2 bg-green-300 text-xl"><button>All</button></a>
-            <a href="" class="rounded-full border px-5  py-2 text-lg"><button>Forest</button></a>
-            <a href="" class="rounded-full border px-6  py-2 text-lg"><button>beach</button></a>
-            <a href="" class="rounded-full border px-6  py-2 text-lg"><button>River</button></a>
-            <a href="" class="rounded-full border px-6  py-2 text-lg"><button>About</button></a>
+            <a href="" class="rounded-full border px-5 py-2 bg-green-300 text-xl lg:text-[40px] lg:p-[20px]"><button>All</button></a>
+            <a href="" class="rounded-full border px-5  py-2 text-lg lg:text-[40px] lg:p-[20px] lg:border lg:bg-slate-400"><button>Forest</button></a>
+            <a href="" class="rounded-full border px-6  py-2 text-lg lg:text-[40px] lg:p-[20px]  lg:bg-slate-400"><button>beach</button></a>
+            <a href="" class="rounded-full border px-6  py-2 text-lg lg:text-[40px] lg:p-[20px]  lg:bg-slate-400"><button>River</button></a>
+            <a href="" class="rounded-full border px-6  py-2 text-lg lg:text-[40px] lg:p-[20px]  lg:bg-slate-400"><button>About</button></a>
         </article>
     </section>
-    <section class="h-[300px]">
-        <img class="mt-7" src="images/jungel.avif" alt="">
+    <section class="h-[300px] w-[100%]">
+        <a href="http://127.0.0.1:5500/index2.html"><img class="mt-7 lg:w-[100%]" src="images/jungel.avif" alt=""></a>
         <article class="flex justify-between mr-3 ml-3">
             <div>
-                <P class="font-bold">Wello River</P>
+                <P class="font-bold lg:text-[40px]">Wello River</P>
              </div>
-             <div>
-             <i class="fa-solid fa-location-dot"></i>
-             <span>china</span>
-             <i class="fa-regular fa-clock"></i>
-             <span>min</span>
-             <i class="fa-solid fa-eye"></i>
-             <span>12K</span>
+             <div >
+             <i class="fa-solid fa-location-dot lg:text-[40px]"></i>
+             <span class="lg:text-[30px]">china</span>
+             <i class="fa-regular fa-clock lg:text-[40px]"></i>
+             <span class="lg:text-[30px]">min</span>
+             <i class="fa-solid fa-eye lg:text-[40px]"></i>
+             <span  class="lg:text-[30px]">12K</span>
              </div>
         </article>
-        <p class="ml-3 ">by lan jacopson</p>
+        <p class="ml-3 lg:text-[30px] ">by lan jacopson</p>
        
     </section>
-    <section class="mt-20 flex justify-between gap-8  rounded-lg  mx-4">
-        <article class="flex flex-col items-center gap-8">
+    <section class="mt-20 flex justify-between gap-8  rounded-lg  mx-4 lg:mt-[700px] lg:w-[100%]">
+        <article class="flex flex-col items-center gap-8 lg:w-[50%]">
             <div>
-            <img class="w-[170px]  h-[120px] rounded-lg" src="images/nature1.avif" alt="">
+            <img class="w-[170px]  h-[120px] rounded-lg lg:w-[500px] lg:h-[400px]" src="images/nature1.avif" alt="">
             </div>
             <div>
-            <img class="w-[170px]  h-[120px] rounded-lg" src="images/nature2.jpg" alt="">
+            <img class="w-[170px]  h-[120px] rounded-lg lg:w-[500px] lg:h-[400px]" src="images/nature2.jpg" alt="">
             </div>
         </article>
-        <article class="flex flex-col gap-8">
+        <article class="flex flex-col gap-8 lg:w-[50%]">
             <div>
-            <img class="w-[170px]   h-[120px] rounded-lg" src="images/nature5.avif" alt="">
+            <img class="w-[170px]   h-[120px] rounded-lg lg:w-[500px] lg:h-[400px] " src="images/nature5.avif" alt="">
             </div>
             <div>
-            <img class="w-[170px]  h-[120px] rounded-lg" src="images/nature3.avif" alt="">
+            <img class="w-[170px]  h-[120px] rounded-lg lg:w-[500px] lg:h-[400px]" src="images/nature3.avif" alt="">
             </div>
         </article>
         
     </section>
-    <footer class="h-[100px] rounded-full border-solid bg-gray-200 flex justify-between items-center sticky bottom-0">
-        <article class="bg-green-400 px-5 py-2 rounded-2xl text-white ml-3">
-            <a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-house" ></i></a>
+    <footer class="h-[100px] rounded-full border-solid bg-gray-200 flex justify-between items-center sticky bottom-0 lg:h-[200px]">
+        <article class="bg-green-400 px-5 py-2 rounded-2xl text-white ml-3 lg:ml-[30px]">
+            <a href="http://127.0.0.1:5500/index.html"><i class="fa-solid fa-house lg:text-[70px]" ></i></a>
             
         </article>
-         <article class="flex flex-col items-center mr-5 text-xl">
-            <i class="fa-solid fa-location-dot"></i>
-            <p>localisation</p>
+         <article class="flex flex-col items-center mr-5 text-xl ">
+            <i class="fa-solid fa-location-dot lg:text-[60px]"></i>
+            <p class="text-[40px]">localisation</p>
         </article>
          <article  class="flex flex-col items-center mr-5 text-xl" >
-            <i class="fa-solid fa-heart"></i>
-            <p>Wilshlist</p>
+            <i class="fa-solid fa-heart lg:text-[60px]"></i>
+            <p class="text-[40px]">Wilshlist</p>
         </article>
-         <article  class="flex flex-col items-center mr-5 text-xl">
-           <a href="http://127.0.0.1:5500/images/page_description.html"><i class="fa-solid fa-circle-user"></i></a>
-           <p>profile</p>
+         <article  class="flex flex-col items-center mr-5 text-xl lg:mr-[30px]">
+           <a href="http://127.0.0.1:5500/images/page_description.html"><i class="fa-solid fa-circle-user lg:text-[60px]"></i></a>
+           <p class="text-[40px]">profile</p>
         </article>
     </footer>
 </body>
